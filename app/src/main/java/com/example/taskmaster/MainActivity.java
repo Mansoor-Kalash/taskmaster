@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+public class MainActivity extends AppCompatActivity {
+
 private Button addTask;
 private Button allTask;
     @Override
@@ -16,6 +20,7 @@ private Button allTask;
         setContentView(R.layout.activity_main);
         addTask = (Button) findViewById(R.id.addTask);
         allTask = (Button) findViewById(R.id.allTask);
+
         Button task1 = (Button) findViewById(R.id.task1);
         Button task2 = (Button) findViewById(R.id.task2);
         Button task3 = (Button) findViewById(R.id.task3);
@@ -39,6 +44,7 @@ private Button allTask;
                 allTaskActivity();
             }
         });
+
         task1.setOnClickListener(this);
         task2.setOnClickListener(this);
         task3.setOnClickListener(this);
@@ -52,6 +58,7 @@ private Button allTask;
         Intent intent = new Intent(this,AllTask.class);
         startActivity(intent);
     }
+
 
     @Override
     public void onClick(View v) {
@@ -68,4 +75,5 @@ private Button allTask;
         Intent intent = new Intent(this,SettingsPage.class);
         startActivity(intent);
     }
+
 }

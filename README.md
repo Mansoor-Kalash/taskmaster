@@ -12,9 +12,11 @@
 
 * AllTask
 
+
 * SettingPage
 
 * TaskDetailPage
+
 
 ## Method
 
@@ -25,6 +27,7 @@ will return you to AddTask Activity
 * allTaskActivity
 
 will return you to AllTask Activity
+
 
 * openTaskDetails
 
@@ -47,6 +50,8 @@ to put the title that pass
 
 ## Work lab 26
 
+
+
 ![](1.png)
 
 ![](2.png)
@@ -56,6 +61,7 @@ to put the title that pass
 ![](4.png)
 
 ![](5.png)
+
 
 ## Work lab 27
 
@@ -70,4 +76,5 @@ to put the title that pass
 ![](10.png)
 
 ![](11.png)
+
 
