@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taskmaster">
         <activity
+            android:name=".SettingsPage"
+            android:exported="true" />
+        <activity
+            android:name=".TaskDetailPage"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,13 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".AddTask"
-            />
-        <activity
-            android:name=".AllTask"
-            />
-
+        <activity android:name=".AddTask" />
+        <activity android:name=".AllTask" />
     </application>
 
 </manifest>
